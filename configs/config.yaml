@@ -1,0 +1,42 @@
+# EEG-IMU Multimodal Fusion Configuration
+
+# Training parameters
+training:
+  n_folds: 5
+  batch_size: 32
+  epochs: 100
+  learning_rate: 0.001
+  patience: 15
+  random_seed: 42
+
+# Window parameters
+window:
+  size_sec: 4
+  overlap: 0.0
+
+# EEG parameters
+eeg:
+  sampling_rate: 125
+  num_channels: 16
+
+# IMU/HAR parameters
+har:
+  sampling_rate: 25
+  top_features: 60
+
+# EEGNet + Transformer
+eegnet_transformer:
+  d_model: 128
+  num_heads: 8
+  num_layers: 2
+  ff_dim: 256
+  eegnet_dropout: 0.5
+  transformer_dropout: 0.3
+
+# XGBoost
+xgboost:
+  max_depth: 6
+  learning_rate: 0.1
+  n_estimators: 100
+  subsample: 0.8
+  colsample_bytree: 0.8
