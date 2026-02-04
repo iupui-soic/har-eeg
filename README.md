@@ -1,6 +1,6 @@
 # Multimodal EEG-IMU Fusion for Motor Assessment
 
-Code for the paper: **"Task-Dependent Performance Patterns Enable Robust Multimodal Motor Assessment: Integrating EEG and IMU Signals for Reliable Movement Classification"**
+Code for the paper: **"Multimodal EEG-IMU Fusion for Motor Assessment: Leveraging Task-Dependent Complementarity for Robustness"**
 
 ## Overview
 
