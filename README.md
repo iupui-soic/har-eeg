@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ## Citation
 ```bibtex
 @article{yin2026multimodal,
-  title={Task-Dependent Performance Patterns Enable Robust Multimodal Motor Assessment},
+  title={Multimodal EEG-IMU Fusion for Motor Assessment: Leveraging Task-Dependent Complementarity for Robustness},
   author={Yin, Zhenan and Pulavarthy, Lalitha Pranathi and Purkayastha, Saptarshi},
   year={2026}
 }
